@@ -29,7 +29,7 @@ div.header-block{
   max-height: 705px;
   height: 100%;
   margin-top: 30px;
-  margin-left: 405px;
+  margin: 0 auto;
  
   
 }
@@ -99,7 +99,7 @@ display: block;
   flex-grow: 1;
   height: 50px;
   margin-top: 583px;
-margin-left: 348px;
+  margin: 0 auto;
 
 }
 
