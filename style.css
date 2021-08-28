@@ -8,7 +8,7 @@
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
-    background-color: hotpink;
+    
     height: 3871px;
     border: 1px solid black;
     display: flex;
@@ -20,7 +20,7 @@
   max-height: 900px;
   height: 900px;
   background-image: url(background_header.jpg);
-  position: relative;
+  /* position: relative; */
 }
 div.header-block{
   max-width: 1110px;
@@ -38,6 +38,7 @@ div.kontacts{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
   
 }
 div.adres{
@@ -64,17 +65,19 @@ line-height: 150%;
 div.nav{
   height: 46px;
   display: flex;
-justify-content: space-between;
-flex-grow: 1;
+  justify-content: space-between;
+  flex-grow: 1;
   margin-top: 20px;
   border-top: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 583px;
   
 }
 div.nav div{
   text-align: center;
   width: 100%;
- padding-top: 15px; 
+ padding-top: 13px;
+ padding-bottom: 13px; 
 font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
@@ -98,7 +101,7 @@ display: block;
   max-width: 415px;
   flex-grow: 1;
   height: 50px;
-  margin-top: 583px;
+  
   margin: 0 auto;
 
 }
@@ -139,14 +142,15 @@ background-color: #998431 ;
 div.main-block{
   max-width:1110px;
   
-  max-height: 656px;
-  height: 100%;
-  margin: 100px 405px 100px 405px;
+  height: 656px;
+  
+  margin: 100px auto 100px auto;
   background: #282828;
   border: 1px solid #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
 }
 div.main-block div:nth-child(1){
@@ -215,7 +219,7 @@ div.winemap-block{
   
  height: 878px;
   
-  margin: 80px 405px;
+  margin: 80px auto;
   border-top: 1px solid #998431;
   border-bottom: 1px solid #998431;
   display: flex;
@@ -229,7 +233,7 @@ div.winemap-block div.d_1{
   
   height:878px ;
   height: 100%;
-  background-color: aqua;
+  
   display: inline-block;
 }
 
@@ -265,12 +269,20 @@ div.winemap-block div.img{
     margin-left: 25px;
   }
 
-div.winemap-block div.d_1 div:nth-of-type(1){
+div.winemap-block div.d_1 div:nth-child(1){
   max-width:347px;
   width: 100%;
   max-height:24px ;
   height: 100%;
   margin-top: 60px;
+ font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 div.winemap-block div.d_1 div:nth-of-type(2){
   max-width:298px;
@@ -278,6 +290,15 @@ div.winemap-block div.d_1 div:nth-of-type(2){
   max-height:108px ;
   height: 100%;
   margin-top: 30px;
+
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 div.winemap-block div.d_1 div:nth-of-type(3){
   max-width:160px;
@@ -294,24 +315,43 @@ div.winemap-block div.d_1 div:nth-of-type(4){
   height: 100%;
   margin-top: 30px;
   
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  
 }
 
 div.winemap-block div.d_1 div:nth-of-type(5){
   max-width:445px;
   width: 100%;
-  max-height:228px ;
+  max-height:84px;
   height: 100%;
   margin-top: 30px;
-  
+}
+
+ table{
+  border-collapse: collapse;
+  border-bottom: 1px solid transparent;
   
 }
-.table1 div{
-  display: inline-block;
+table tr{
+  border-bottom: 1px solid black;
 }
-.table1 div:first-child{
+table td:first-child{
+  border-right: 1px solid black;
   width: 75px;
-  height: 73px; 
-  display: inline-block;
+  height: 75px;
+}
+
+
+ table  td:nth-child(2){
+  width: 370px;
+  height: 75px; 
+ border: #282828;
 
 }
 
@@ -321,6 +361,15 @@ div.winemap-block div.d_1 div:nth-of-type(6){
   max-height:84px ;
   height: 100%;
   margin-top: 30px;
+ 
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
   
 }
 div.winemap-block div.d_1 div:nth-of-type(7){
@@ -332,9 +381,133 @@ div.winemap-block div.d_1 div:nth-of-type(7){
   margin-bottom: 60px;
   
 }
+.form{
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  max-height: 767px;
+  height: 100%;
+  background-color: #282828;
+}
+form{
+  display: block;
+  max-width: 1110px;
+  
+  margin:  0 auto;
+ 
+
+}
+legend{
+  text-align: center;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+padding: 10px 50px ;
+
+}
+
+fieldset{
+  height: 538px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -200px;
+  border: 3px solid #C4C4C4;
+  border-top-left-radius: 135px ;
+  border-top-right-radius: 135px;
+
+}
+fieldset div:nth-of-type(1){
+  max-width: 160px;
+    width: 100%;
+    max-height: 0px;
+    height: 100%;
+    margin-top: 40px;
+    border-top: 1px solid #FFFFFF;
+}
+fieldset div:nth-of-type(2){
+  width: 539px;
+  height: 72px;
+  border-top-color: #FFFFFF;
+  margin-top: 40px;
+  border-top-color:1px solid #FFFFFF;
+}
+fieldset div:nth-of-type(3){
+  width: 539px;
+  height: 30px;
+  border-top-color: #FFFFFF;
+  margin-top: 81px;
+}
+fieldset div:nth-of-type(4){
+  width: 539px;
+  height: 72px;
+  border-top-color: #FFFFFF;
+  margin-top:70px;
+}
+fieldset div:nth-of-type(5){
+  width: 539px;
+  height: 50px;
+  border:1px solid #FFFFFF;
+  margin-top:50px;
+  margin-bottom: 80px;
+}
+
+div.form-img{
+  max-width: 1193px;
+  height: 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 64px;
+  flex-grow: 1;
+}
+
+
+
+
 .footer{
   max-width: 1920px;
   width: 100%;
- /* height: 10vh;*/
-  background-color: lime;
+ height:220px; 
+  background: #998431;
+  
+}
+div.row1{
+  max-width: 1110px;
+  height: 60px;
+  
+  margin: 0 auto ;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+div.row2{
+  max-width: 1110px;
+  height: 60px;
+  
+  margin: 0 auto ;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+ 
+  border-bottom: 1px solid #FFFFFF;
+
+}
+div.row2 div:nth-child(2){
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  height: 100%;
+}
+div.row2 div:nth-child(3){
+  border-right: 1px solid #FFFFFF;
+  height: 100%;
 }
