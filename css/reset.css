@@ -86,7 +86,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */ 
+/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -101,7 +101,7 @@ section {
   display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol,
 ul {
@@ -119,30 +119,34 @@ q:after {
   content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-  }
-  
-  input {
-	padding: 0;
-	margin: 0;
-	border: 0;
-	border: none;
-  }
-  
-  *,
-  *::before,
-  *::after {
-	box-sizing: border-box;
-  }
-  
-  body {
-	margin: 0;
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-  }
-  
-  a {
-	font: inherit;
-	text-decoration: none;
-  }	
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+a {
+  font: inherit;
+  text-decoration: none;
+}
+
+hr {
+  margin: 0;
+}
